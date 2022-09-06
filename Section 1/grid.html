@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css"
+rel="stylesheet"
+/>
+<style>
+    body{
+        background: linear-gradient(to right, rgba(128, 128, 128, 0.368) , rgba(128, 128, 128, 0.451)) , url(https://images.alphacoders.com/563/563020.jpg);
+        background-size: cover;
+        /* backdrop-filter: blur(2px); */
+        height: 100vh;
+    }
+    .thumb{
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+    .search{
+        padding: 10px 20px;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 40px 0 0 40px;
+        border: none;
+   }
+   .mycard{
+    height: 200px;
+   }
+   .mybtn{
+    border-radius: 0px 40px 40px 0px;
+   }
+   header{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.426)), url(https://ck12live.s3.ap-south-1.amazonaws.com/user/5f5b45ec18e8ec11b56e69e2/classroom/original/1601454038517-vidgames.jpg);
+   }
+   .my-btn{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+   }
+   .back-to-top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+   }
+</style>
+  </head>
+  <body>
+
+    <button class="back-to-top btn btn-danger"><i class="fa-2x fas fa-arrow-circle-up"></i></button>
+    <header class="bg-dark">
+        <div class="container" style="padding: 100px ;">
+            <p class="display-4 text-white text-center fw-bold">Games Weekend</p>
+            <div style="display:flex">
+            <input placeholder="Search Games..." class="search">
+             <button class="btn btn-primary btn-lg mybtn"><i class="fas fa-search"></i></button>  
+        </div>
+    </header>
+
+    <div class="container py-5">
+        
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="thumb" style="background-image: url(https://wallpaperaccess.com/full/957573.jpg) "></div>
+                 <!-- <img src="https://cdn.vox-cdn.com/thumbor/Axn-jaowe_b-N78w7GG8CBqIBp0=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/70594659/apps.3117.14492969036550054.5a1d.0.jpg" alt="">  -->
+
+                    <div class="card-body mycard">
+                        <p class="text-muted m-0">Adventure</p>
+                        <h3>Grand Theft Auto-5</h3>
+                        
+                        <button class="btn btn-primary mt-4 w-50 float-end my-btn"> <i class="fas fa-shopping-cart    "></i> &nbsp; Buy Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="thumb" style="background-image: url(https://i.gadgets360cdn.com/products/large/kk-1905x2087-1649165232.jpg) "></div>
+                    <!-- <img src="https://cdn.vox-cdn.com/thumbor/Axn-jaowe_b-N78w7GG8CBqIBp0=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/70594659/apps.3117.14492969036550054.5a1d.0.jpg" alt=""> -->
+                     <!-- <div class="card-header">
+                         <p>This is card-header</p>
+                    </div> -->
+                    <div class="card-body mycard">
+                        <p class="text-muted m-0">Sport</p>
+                        <h3>FIFA-22</h3>
+                        
+                        <button class="btn btn-primary mt-4 w-50 float-end my-btn"> <i class="fas fa-shopping-cart    "></i> &nbsp; Buy Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="thumb" style="background-image: url(https://assets-prd.ignimgs.com/2022/03/16/cricket-22-button-fin-1647405024424.jpg) "></div>
+                    <!-- <img src="https://cdn.vox-cdn.com/thumbor/Axn-jaowe_b-N78w7GG8CBqIBp0=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/70594659/apps.3117.14492969036550054.5a1d.0.jpg" alt=""> -->
+                    <!-- <div class="card-header">
+                        <p>This is card-header</p>
+                    </div> -->
+                    <div class="card-body mycard">
+                        <p class="text-muted m-0">Sport,Action</p>
+                        <h3>Cricket-22</h3>
+                        
+                        <button class="btn btn-primary mt-4 w-50 float-end my-btn"> <i class="fas fa-shopping-cart    "></i> &nbsp; Buy Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                     <div class="thumb" style="background-image: url(https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/bc02c9cdfc5b424ddf343b01edf791ce.png) "></div> 
+                      <!-- <img src="https://cdn.vox-cdn.com/thumbor/Axn-jaowe_b-N78w7GG8CBqIBp0=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/70594659/apps.3117.14492969036550054.5a1d.0.jpg" alt="">  -->
+        
+                    <div class="card-body mycard">
+                        <p class="text-muted m-0">Sport,Thriller</p>
+                        <h3>Basketball Stars</h3>
+                        
+                        <button class="btn btn-primary mt-4 w-50 float-end my-btn"> <i class="fas fa-shopping-cart"></i> &nbsp; Buy Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="thumb" style="background-image: url(https://wallpaperaccess.com/full/957573.jpg) "></div>
+                 <!-- <img src="https://cdn.vox-cdn.com/thumbor/Axn-jaowe_b-N78w7GG8CBqIBp0=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/70594659/apps.3117.14492969036550054.5a1d.0.jpg" alt="">  -->
+
+                    <div class="card-body mycard">
+                        <p class="text-muted m-0">Adventure</p>
+                        <h3>Grand Theft Auto-5</h3>
+                        
+                        <button class="btn btn-primary mt-4 w-50 float-end my-btn"> <i class="fas fa-shopping-cart    "></i> &nbsp; Buy Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="thumb" style="background-image: url(https://i.gadgets360cdn.com/products/large/kk-1905x2087-1649165232.jpg) "></div>
+                    <!-- <img src="https://cdn.vox-cdn.com/thumbor/Axn-jaowe_b-N78w7GG8CBqIBp0=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/70594659/apps.3117.14492969036550054.5a1d.0.jpg" alt=""> -->
+                     <!-- <div class="card-header">
+                         <p>This is card-header</p>
+                    </div> -->
+                    <div class="card-body mycard">
+                        <p class="text-muted m-0">Sport</p>
+                        <h3>FIFA-22</h3>
+                        
+                        <button class="btn btn-primary mt-4 w-50 float-end my-btn"> <i class="fas fa-shopping-cart    "></i> &nbsp; Buy Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="thumb" style="background-image: url(https://assets-prd.ignimgs.com/2022/03/16/cricket-22-button-fin-1647405024424.jpg) "></div>
+                    <!-- <img src="https://cdn.vox-cdn.com/thumbor/Axn-jaowe_b-N78w7GG8CBqIBp0=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/70594659/apps.3117.14492969036550054.5a1d.0.jpg" alt=""> -->
+                    <!-- <div class="card-header">
+                        <p>This is card-header</p>
+                    </div> -->
+                    <div class="card-body mycard">
+                        <p class="text-muted m-0">Sport,Action</p>
+                        <h3>Cricket-22</h3>
+                        
+                        <button class="btn btn-primary mt-4 w-50 float-end my-btn"> <i class="fas fa-shopping-cart    "></i> &nbsp; Buy Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                     <div class="thumb" style="background-image: url(https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/bc02c9cdfc5b424ddf343b01edf791ce.png) "></div> 
+                      <!-- <img src="https://cdn.vox-cdn.com/thumbor/Axn-jaowe_b-N78w7GG8CBqIBp0=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/70594659/apps.3117.14492969036550054.5a1d.0.jpg" alt="">  -->
+        
+                    <div class="card-body mycard">
+                        <p class="text-muted m-0">Sport,Thriller</p>
+                        <h3>Basketball Stars</h3>
+                        
+                        <button class="btn btn-primary mt-4 w-50 float-end my-btn"> <i class="fas fa-shopping-cart"></i> &nbsp; Buy Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="thumb" style="background-image: url(https://wallpaperaccess.com/full/957573.jpg) "></div>
+                 <!-- <img src="https://cdn.vox-cdn.com/thumbor/Axn-jaowe_b-N78w7GG8CBqIBp0=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/70594659/apps.3117.14492969036550054.5a1d.0.jpg" alt="">  -->
+
+                    <div class="card-body mycard">
+                        <p class="text-muted m-0">Adventure</p>
+                        <h3>Grand Theft Auto-5</h3>
+                        
+                        <button class="btn btn-primary mt-4 w-50 float-end my-btn"> <i class="fas fa-shopping-cart    "></i> &nbsp; Buy Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="thumb" style="background-image: url(https://i.gadgets360cdn.com/products/large/kk-1905x2087-1649165232.jpg) "></div>
+                    <!-- <img src="https://cdn.vox-cdn.com/thumbor/Axn-jaowe_b-N78w7GG8CBqIBp0=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/70594659/apps.3117.14492969036550054.5a1d.0.jpg" alt=""> -->
+                     <!-- <div class="card-header">
+                         <p>This is card-header</p>
+                    </div> -->
+                    <div class="card-body mycard">
+                        <p class="text-muted m-0">Sport</p>
+                        <h3>FIFA-22</h3>
+                        
+                        <button class="btn btn-primary mt-4 w-50 float-end my-btn"> <i class="fas fa-shopping-cart    "></i> &nbsp; Buy Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="thumb" style="background-image: url(https://assets-prd.ignimgs.com/2022/03/16/cricket-22-button-fin-1647405024424.jpg) "></div>
+                    <!-- <img src="https://cdn.vox-cdn.com/thumbor/Axn-jaowe_b-N78w7GG8CBqIBp0=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/70594659/apps.3117.14492969036550054.5a1d.0.jpg" alt=""> -->
+                    <!-- <div class="card-header">
+                        <p>This is card-header</p>
+                    </div> -->
+                    <div class="card-body mycard">
+                        <p class="text-muted m-0">Sport,Action</p>
+                        <h3>Cricket-22</h3>
+                        
+                        <button class="btn btn-primary mt-4 w-50 float-end my-btn"> <i class="fas fa-shopping-cart    "></i> &nbsp; Buy Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                     <div class="thumb" style="background-image: url(https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/https://img.poki.com/bc02c9cdfc5b424ddf343b01edf791ce.png) "></div> 
+                      <!-- <img src="https://cdn.vox-cdn.com/thumbor/Axn-jaowe_b-N78w7GG8CBqIBp0=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/70594659/apps.3117.14492969036550054.5a1d.0.jpg" alt="">  -->
+        
+                    <div class="card-body mycard">
+                        <p class="text-muted m-0">Sport,Thriller</p>
+                        <h3>Basketball Stars</h3>
+                        
+                        <button class="btn btn-primary mt-4 w-50 float-end my-btn"> <i class="fas fa-shopping-cart"></i> &nbsp; Buy Now</button>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+        
+        
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"
+></script>
+  </body>
+</html>

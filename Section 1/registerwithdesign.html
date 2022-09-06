@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada:regular,700" rel="stylesheet" />
+
+    <title>Document</title>
+
+    <style>
+        
+        body{
+           min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+             /* background: url(https://c8.alamy.com/comp/2C2MBTG/registration-blue-arrow-with-registration-slogan-on-a-grey-background-2C2MBTG.jpg);  */
+             /* background: linear-gradient(to right, rgb(255, 190, 190), rgb(171, 171, 255)); */
+             background: linear-gradient(to right, rgba(255, 190, 190, 0.479), rgba(171, 171, 255, 0.403)), url(https://c8.alamy.com/comp/2C2MBTG/registration-blue-arrow-with-registration-slogan-on-a-grey-background-2C2MBTG.jpg);
+        }
+        .mycard{
+           /* shorthand properties */
+            border: 2px solid gray;
+            width: 30%;
+            /* margin: 300px auto; */
+            /* syntax: x-offset y-offset blur size color*/
+            padding: 40px;
+            box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.371), -2px -2px 6px 2px rgba(0, 0, 0, 0.262);
+            box-sizing: border-box;
+            border-radius: 5px;
+            background: rgb(130, 130, 231);
+
+        }
+
+        .mycard h3 label{
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.295);
+            font-size: 1.2em;
+        }
+
+        .myinput, .mybtn{
+            width: 100%; 
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+        }
+
+        .myinput:focus{
+            background: rgb(168, 229, 159);
+            color: white;
+        }
+
+
+        .mybtn{
+            background: rgb(183, 0, 255);
+            color: white;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .form-title{
+            font-family: Montserrat Subrayada;
+            text-align: center;
+            font-size: 1.8em !important;
+        }
+
+        *{
+            font-family: Montserrat Subrayada;
+        }
+
+        
+
+        </style>
+</head>
+
+<body>
+    <div class="mycard">
+
+
+
+        <h3 class="form-title">Register here to continue</h3>
+        <hr>
+
+        <label>Email</label>
+        <input class="myinput" placeholder="Enter Email Address">
+        <br>
+        <br>
+        <label>Course</label>
+        <select class="myinput">
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>Btech</option>
+        </select>
+        <br>
+        <br>
+        <br>
+
+        <label>Department</label>
+        <input class="myinput" list="dept">
+        <datalist id="dept">
+
+            <option>Computer science</option>
+            <option>Arts
+            <option>
+            <option>Commerce</option>
+        </datalist>
+        <br>
+        <br>
+
+
+        <label>Password</label>
+        <input class="myinput" type="Password" placeholder="Enter secure password">
+        <br>
+        <br>
+        <br>
+        <button class="mybtn">submit</button>
+
+        <div>
+
+</body>
+
+</html>
